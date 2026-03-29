@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: studio-attendance
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: REQUIRE_HTTPS
+        value: "true"
+      - key: JWT_SECRET
+        sync: false
+      - key: MONGODB_URI
+        sync: false
