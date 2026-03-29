@@ -1,0 +1,18 @@
+2026-03-28T11:08:10.185Z Late Check-in Alert: Phase 3 Employee checked in at 04:38 pm. Face verified with score 1.
+2026-03-28T11:21:00.679Z Studio Attendance test alert sent at 28/3/2026, 4:51:00 pm.
+2026-03-28T11:24:49.321Z Studio Attendance test alert sent at 28/3/2026, 4:54:49 pm.
+2026-03-28T11:30:43.222Z Studio Attendance test alert sent at 28/3/2026, 5:00:43 pm.
+2026-03-28T11:30:43.968Z Studio Attendance test alert sent at 28/3/2026, 5:00:43 pm.
+2026-03-28T11:30:44.584Z Studio Attendance test alert sent at 28/3/2026, 5:00:44 pm.
+2026-03-28T11:41:38.543Z Studio Attendance test alert sent at 28/3/2026, 5:11:38 pm.
+2026-03-28T11:41:39.521Z Studio Attendance test alert sent at 28/3/2026, 5:11:39 pm.
+2026-03-28T11:41:39.736Z Studio Attendance test alert sent at 28/3/2026, 5:11:39 pm.
+2026-03-28T12:18:51.675Z Late Check-in Alert: miku checked in at 05:48 pm. Face not verified. Face verification score was below the threshold.
+2026-03-28T13:41:13.823Z Late Attendance Reminder: mac checked in at 07:11 pm, which is after the 09:35 AM cutoff. Face not verified. Face verification score was below the threshold.
+2026-03-28T13:57:33.351Z Attendance Summary for 2026-03-28: Present 0, Late 0, Absent 1. Late cutoff: 09:35 AM.
+2026-03-28T13:57:33.356Z Absent Attendance Reminder: 1 employee(s) are still absent for 2026-03-28 after the 09:35 AM cutoff.
+2026-03-28T13:57:33.357Z Absent Reminder To miku (9939865541): You are marked absent for 2026-03-28. Please contact admin if this is incorrect.
+2026-03-28T13:57:34.457Z Studio Attendance test alert sent at 28/3/2026, 7:27:34 pm.
+2026-03-28T14:00:28.299Z Studio Attendance test alert sent at 28/3/2026, 7:30:28 pm.
+2026-03-28T14:25:33.013Z Studio Attendance test alert sent at 28/3/2026, 7:55:32 pm.
+2026-03-28T14:31:40.118Z Studio Attendance test alert sent at 28/3/2026, 8:01:40 pm.

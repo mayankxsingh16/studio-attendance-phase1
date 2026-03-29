@@ -1,0 +1,55 @@
+
+> studio-attendance-frontend@1.0.0 dev
+> vite --host 0.0.0.0 --port 5173
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m395[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.101:[1m5173[22m/[39m
+[2m7:15:15 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/EmployeeHomePage.jsx[22m
+[2m7:15:50 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:15:57 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m7:16:19 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:16:19 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:20:40 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/EmployeeHomePage.jsx[22m
+[2m7:22:06 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:22:35 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:22:53 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m7:23:00 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m7:23:12 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:23:20 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:23:40 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:23:40 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:29:54 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:30:06 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:30:06 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:53:09 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:53:27 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:53:27 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:56:28 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m7:56:38 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m7:56:38 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:11:49 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:12:03 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:12:03 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:16:49 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/pages/EmployeeHomePage.jsx, /src/pages/LoginPage.jsx, /src/pages/AdminPage.jsx, /src/components/AttendanceFlow.jsx[22m
+[2m8:16:49 PM[22m [36m[1m[vite][22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m8:16:49 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/context/AuthContext.jsx[22m
+[2m8:16:54 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:17:00 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/EmployeeHomePage.jsx[22m
+[2m8:17:12 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:20:39 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:20:39 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:32:16 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:32:58 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:33:04 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:33:09 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:33:20 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:33:28 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:34:11 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m8:34:19 PM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/AdminPage.jsx[22m
+[2m8:34:36 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:34:36 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:37:09 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
+[2m8:37:10 PM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mdist/index.html[22m
