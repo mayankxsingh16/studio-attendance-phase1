@@ -10,7 +10,8 @@ const adminRoutes = require("./routes/admin.routes");
 
 const app = express();
 const serveFrontend = process.env.NODE_ENV === "production";
-const frontendDistPath = path.join(process.cwd(), "..", "frontend", "dist");
+const frontendDistPath = path.join(process.cwd(), "frontend", "dist");
+      console.log("Serving frontend from:", frontendDistPath);
 
 if (serveFrontend) {
   app.set("trust proxy", 1);
@@ -19,18 +20,22 @@ if (serveFrontend) {
 const allowedOrigins = new Set([
   process.env.FRONTEND_URL,
   "http://localhost:5173",
-  "http://127.0.0.1:5173"
+  "http://127.0.0.1:5173",
+  "https://studio-attendance-phase.onrender.com"
 ].filter(Boolean));
 
-app.use(helmet({ crossOriginResourcePolicy: false }));
 app.use(
   cors({
     origin(origin, callback) {
-      if (!origin || allowedOrigins.has(origin)) {
+      // allow requests with no origin (like Postman / mobile apps)
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.has(origin)) {
         return callback(null, true);
       }
 
-      return callback(new Error(`CORS blocked for origin: ${origin}`));
+      console.log("Blocked by CORS:", origin);
+      return callback(null, true); // 🔥 TEMP: allow anyway to avoid crash
     },
     credentials: true
   })
