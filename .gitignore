@@ -1,0 +1,8 @@
+node_modules/
+.env
+dist/
+.mongo-data/
+logs/
+uploads/
+*.log
+tmp-*.png
