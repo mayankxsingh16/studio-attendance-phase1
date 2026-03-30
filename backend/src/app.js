@@ -9,7 +9,7 @@ const qrRoutes = require("./routes/qr.routes");
 const adminRoutes = require("./routes/admin.routes");
 
 const app = express();
-const serveFrontend = process.env.NODE_ENV === "production";
+const serveFrontend = true;
 const frontendDistPath = path.join(process.cwd(), "frontend", "dist");
       console.log("Serving frontend from:", frontendDistPath);
 
