@@ -6,7 +6,7 @@ const ensureDefaultAdmin = require("./src/utils/ensureDefaultAdmin");
 const { initSocket } = require("./src/config/socket");
 const { setupSocketHandlers } = require("./src/sockets/attendanceSocket");
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 
 async function start() {
   await connectDB();
@@ -17,7 +17,7 @@ async function start() {
 
   
   server.listen(PORT, () => {
-    console.log(`API listening on http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
   });
 }
 
