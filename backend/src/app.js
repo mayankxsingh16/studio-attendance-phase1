@@ -10,7 +10,7 @@ const adminRoutes = require("./routes/admin.routes");
 
 const app = express();
 const serveFrontend = true;
-const frontendDistPath = path.join(process.cwd(), "frontend", "dist");
+const frontendDistPath = path.join(__dirname, "../../frontend/dist");
       console.log("Serving frontend from:", frontendDistPath);
 
 if (serveFrontend) {
