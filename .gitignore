@@ -7,3 +7,4 @@ logs/
 uploads/
 *.log
 tmp-*.png
+.netlify/
