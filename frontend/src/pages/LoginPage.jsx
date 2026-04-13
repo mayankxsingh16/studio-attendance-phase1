@@ -34,11 +34,28 @@ export default function LoginPage() {
     }
   };
 
+  const fillDemo = (role) => {
+    setError("");
+    setForm(
+      role === "admin"
+        ? { email: "admin@studio.com", password: "Admin@123" }
+        : { email: "employee@studio.com", password: "Employee@123" }
+    );
+  };
+
   return (
     <div className="page-wrap">
       <div className="card auth-card">
         <h1>Studio Attendance</h1>
         <p>Log in as an admin or employee.</p>
+        <div className="login-choice-row">
+          <button type="button" onClick={() => fillDemo("admin")}>
+            Admin Login
+          </button>
+          <button type="button" onClick={() => fillDemo("employee")}>
+            Employee Login
+          </button>
+        </div>
         <form onSubmit={handleSubmit} className="form-stack">
           <input
             type="email"
@@ -60,10 +77,6 @@ export default function LoginPage() {
         </form>
         {!fingerprint && <p className="small-text">Preparing secure device check...</p>}
         {error && <p className="error-text">{error}</p>}
-        <div className="helper-box">
-          <strong>Seeded admin:</strong>
-          <span>admin@studio.com / Admin@123</span>
-        </div>
       </div>
     </div>
   );
